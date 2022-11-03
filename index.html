@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div class="container-fluid">
+      
+    <div class="row" id="header-bg">
+      <div class=" col-lg-3 sidenavs"></div>
+      <div class=" col-lg-6 col-10 nav-menu">
+        <nav class="navbar navbar-expand-lg header mt-5">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="font-size: 2rem;" href="#">About <span><img src="icons8-heart-24.png"/></span> Love</a>
+            <button
+              class="navbar-toggler menu-icon-style"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mobileColpase-div" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mobile-colpase"
+                style="--bs-scroll-height: 100px; margin-left: auto"
+              >
+                <li class="nav-item">
+                  <a class="nav-link nav-item-header active" aria-current="page" href="#">Agenda</a>
+                </li>
+                <div class="vr"></div>
+                <li class="nav-item secondli">
+                  <a class="nav-link nav-item-header" href="#">Veelgestelde vragen</a>
+                </li>
+              </ul>
+              
+            </div>
+            <form class="d-flex country_form" role="search">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle country-dropdown"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="icons8-netherlands-48.png"
+                    style="width: 30px; margin-right: 5px"
+                  />
+                  
+                </button>
+                <ul class="dropdown-menu" style="left: 20%">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><img
+                        src="icons8-great-britain-48.png"
+                        style="width: 30px; margin-right: 5px"
+                      />English</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class=" col-lg-3 sidenavs">
+       
+      </div>
+
+    </div>
+    </div>
+
+    
+    <!-- navbar  -->
+
+    <!-- text line  -->
+    <div class="container text-center mt-4">
+      <div class="row">
+        <div class="col-2 col-md-2  col-sm-2 col-lg-2 emp"></div>
+        <div class="col-8 col-md-8 col-sm-8 col-lg-8 w-xl-50 header-text-div">
+          <h3 class="header-text px-2">
+            Wekelijks video speeddates beschikbaar voor singles in Nederland
+          </h3>
+        </div>
+        <div class="col-2 col-md-2 col-sm-2 col-lg-2 emp"></div>
+      </div>
+    </div>
+
+    <!-- card feature  -->
+    <div class="card container-fluid mt-5">
+        <!-- dropdown row -->
+      <div class="row mt-2 mb-5">
+        <div class="col-lg-2 col-md-0 col-sm-0 col-0"></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12 dropcolumn" style="text-align: center;">
+              <!-- Regio drop button -->
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle droper"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="background-color: #ee4629; color: white; width:166.36px"
+                >
+                  Regio
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            
+              <!-- Doelgroep drop button -->
+              <div class="btn-group ">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle droper"
+                 
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="background-color: #ee4629; color: white; width:166.36px"
+                >
+                  Doelgroep
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <br class="linebreak" style="display: none;"/>
+              <!-- Leeftijd drop button -->
+              <div class="btn-group dropbottom">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle droper"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="background-color: #ee4629; color: white; width:166.36px"
+                >
+                  Leeftijd
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            
+            
+              <!-- Opleidingsniveau drop button -->
+              <div class="btn-group dropbottom">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle droper"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  
+                  style="background-color: #ee4629; color: white"
+                >
+                  Opleidingsniveau
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            
+        </div>
+        <div class="col-lg-2 col-md-0 col-sm-0 col-0"></div>
+      </div>
+
+      <!-- features first row  -->
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%;" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #ff9148;">Hetero</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2"> 
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Hoger opgeleiden</p>
+            </div>
+          </div>
+          
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-male-48.png"/>&nbsp &nbsp Nog Plaats</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-female-48.png">&nbsp &nbsp Laatste Plaatsen</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+      <!-- feature second row  -->
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%; height:100%" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Lesbisch</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Hoger opgeleiden</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 col-sm-4">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-female-48.png">&nbsp &nbsp Laatste Plaatsen</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+       <!-- feature third row  -->
+       <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%; height:100%" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #ff9148;">Homo</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff9148;">Geen Voorkeur</p>
+            </div>
+          </div>
+          
+
+          <div class="col-md-4 col-sm-4">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-male-48.png"/>&nbsp &nbsp Nog Plaats</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+      <!-- feature fourth row  -->
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%; height:100%" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #ff9148;">Hetero</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff9148;">Geen Voorkeur</p>
+            </div>
+          </div>
+          
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-male-48.png"/>&nbsp &nbsp Nog Plaats</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-female-48.png">&nbsp &nbsp Laatste Plaatsen</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+
+      <!-- feature fifth row  -->
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%; height:100%" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #ff9148;">Hetero</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Hoger opgeleiden</p>
+            </div>
+          </div>
+          
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-male-48.png"/>&nbsp &nbsp Nog Plaats</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-female-48.png">&nbsp &nbsp Laatste Plaatsen</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+      <!-- feature sixth row  -->
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 col-sm-2 imagecard">
+            <!-- <img src="./images/banner.jpg" class="img-fluid rounded-start" style="width: 100%; height:100%" alt="card image"> -->
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center">
+              <p class="card-title fw-bold" style="color: #8154a7;">di 25 okt<br/>20:00</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Utrecht</p>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #ff9148;">Hetero</p>
+            </div>
+          </div>
+          
+          <div class="col-md-1 col-sm-1">
+            <div class="card-body text-center" style="border-right: 2px solid #d2d2d2; margin-top: 1em">
+              <p class="card-title fw-bold" style="color: #e57e5c;">24-36</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #e57e5c;">Hoger opgeleiden</p>
+            </div>
+          </div>
+          
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-male-48.png"/>&nbsp &nbsp Nog Plaats</p>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-2">
+            <div class="card-body text-center" style="margin-top: 1em;">
+              <p class="card-title fw-bold" style="color: #ff8534; margin-top: -12px;"><img src="icons8-female-48.png">&nbsp &nbsp Laatste Plaatsen</p>
+            </div>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+      
+    </div>
+    <!-- card feature  -->
+
+
+    <!-- footer  -->
+    <div class="container-fluid footer-sectio">
+      <div class="mainfooter">
+        <footer style="padding-top: 3rem; padding-bottom:2rem ;">
+          <div class="row">
+            <div class="col-7 mx-auto col-lg-3 col-md-3 mb-3 first">
+              <div class="footer-first-section">
+              <!-- <h5>Section</h5> -->
+              <ul class="nav flex-column px-2">
+                <li class="nav-item" id="matchgarantie"><p class="p-0 text-muted footer_left_para"><i class="bi bi-check2-square infoIcon"></i>Match garantie</p></li>
+                <li class="nav-item"><p class="p-0 text-muted footer_left_para"><i class="bi bi-check2-square infoIcon"></i>Snelle service</p></li>
+                
+                <li class="nav-item "><p class="p-0 text-muted footer_left_para"><i class="bi bi-info-square infoIcon"></i>± 10-20 gesprekken</p></li>
+                <li class="nav-item "><p class="p-0 text-muted footer_left_para"><i class="bi bi-info-square infoIcon"></i>± 3-6 min. per gesprek</p></li>
+                <li class="nav-item "><p class="p-0 text-muted footer_left_para"><i class="bi bi-info-square infoIcon"></i>Duratie ± 1 uur</p></li>
+              </ul>
+            </div>
+            </div>
+      
+            <div class="col-12 col-lg-6  col-md-9 mb-3 text-center ml-auto">
+                <form class="footer-second-section mr-0">
+                    <h5>Heb je nog vragen over het video speeddaten?</h5>
+                    <p>Bekijk de veelgestelde vragen of neem contact met ons op.</p>
+                    <a href="mailto:contact@videospeeddate.nl">contact@videospeeddate.nl</a>
+
+                    <!-- <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div> -->
+                  </form>
+            </div>
+      
+          
+      
+            <div class="col-7 mx-auto col-lg-3 col-md-12 mb-3">
+              <div class="footer-third-section">
+              
+                <!-- <h5>Links</h5> -->
+                <ul class="nav flex-column footer-nav pb-0">
+                  <li class="nav-item mb-2 text-center pb-0"><a href="#" class="nav-link p-0 text-muted pb-0">Privacybeleid</a></li>
+                  <div class="vr vertical" style="display: none;"></div>
+                  <hr/>
+                  <li class="nav-item mb-1 text-center pb-0"><a href="#" class="nav-link p-0 text-muted pb-0">Algemene Voorwaarden</a></li>
+                  <hr/>
+                  <div class="vr vertical" style="display: none;"></div>
+                  <li class="nav-item mb-2 text-center pb-0"><a href="#" class="nav-link p-0 text-muted pb-0">Sitema</a></li>
+                </ul>
+                </div>
+            </div>
+          </div>
+
+         
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between copyrightsection">
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+              </ul>
+            <p style="font-size: 0.8rem" class="text-dark copyright_section">&copy; Videospeeddate.nl 2022 - Heden | KvK 78122066</p>
+            
+          </div>
+        </footer>
+        </div>
+      </div>
+      
+      
+    <!-- footer  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
