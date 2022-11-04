@@ -633,6 +633,7 @@ hr{
     .footer-first-section{
         padding: 14px;
         line-height: 24px;
+        width: max-content;
     }
     .first{
         height: fit-content;
@@ -733,15 +734,5 @@ hr{
 @media only screen and (max-width:767px){
     .algem{
         margin-bottom: 4px;
-    }
-}
-@media only screen and (min-width:992px){
-    .footer-third-section{
-        line-height: 55px;
-    }
-}
-@media only screen and (max-width:767px){
-    .footer-third-section{
-        line-height: 40px;
     }
 }
